@@ -1,12 +1,10 @@
-import './App.css';
-import './components/HelloWord'
-import './components/Form'
-import Form from './components/Form';
 
 function App() {
-  return (
-    <Form></Form>
-  );
+    return (
+        <div className="App">
+            <p>CostP</p>
+        </div>
+    );
 }
 
 
