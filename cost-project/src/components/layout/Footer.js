@@ -1,10 +1,15 @@
+import {FaInstagram, FaLinkedin,} from 'react-icons/fa'
+import styles from './Footer.module.css'
+
 function Footer() {
     return (
-        <>
-        <div>
-            <h1>Footer</h1>
-        </div>
-        </>
+        <footer className={styles.footer}>
+            <ul className={styles.social_list}>
+                <li><FaInstagram /></li>
+                <li><FaLinkedin /></li>
+            </ul>
+            <p className={styles.copy_right}><span>&copy; 2025</span></p>
+        </footer>
     )
 }
 
