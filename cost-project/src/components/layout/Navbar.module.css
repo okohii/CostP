@@ -13,6 +13,7 @@
 
 .item {
     margin-right: 1em;
+    
     & a {
         color: #FFF;
         text-decoration: none;
