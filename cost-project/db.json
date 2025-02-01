@@ -1,21 +1,40 @@
 {
-    "projects": [],
-    "categories": [
+  "projects": [
+    {
+      "id": "1f46",
+      "name": "Backup de mapa 04/01/2025",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 1000,
+      "services": [
         {
-            "id": 1,
-            "name": "infra"
-        },
-        {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
+          "name": "Contratar desenvolvedor java",
+          "cost": "1000",
+          "description": "Desenvolver datapack",
+          "id": "b50fa2ad-760d-4432-9148-ca9af758a2cd"
         }
-    ]
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
 }
